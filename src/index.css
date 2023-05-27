@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+  position: relative;
+}
+li:hover::before {
+  position: absolute;
+  content: "";
+  height: 4px;
+  width: 100%;
+  background-color: #e86d15;
+  bottom: -10px;
+  right: 0;
+  color: #e86d15;
+}
+
+/* .icon {
+  cursor: pointer;
+} */
+/* .card {
+  background-color: #000;
+} */
+
+/* I have commented all this out becuase we shall see how it comes into play at a later stage */
