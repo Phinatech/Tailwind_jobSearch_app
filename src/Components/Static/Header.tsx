@@ -11,13 +11,18 @@ const Header = () => {
 
       <div className=" menu flex gap-8">
         <li className="meunlist text-[#6f6f6f] hover:text-blueColor">Jobs</li>
-        <li className="meunlist text-[#6f6f6f] hover:text-blueColor">Jobs</li>
-        <li className="meunlist text-[#6f6f6f] hover:text-blueColor">Jobs</li>
-        <li className="meunlist text-[#6f6f6f] hover:text-blueColor">Jobs</li>
-        <li className="meunlist text-[#6f6f6f] hover:text-blueColor">Jobs</li>
-        <li className="meunlist text-[#6f6f6f] hover:text-blueColor">Jobs</li>
-        <li className="meunlist text-[#6f6f6f] hover:text-blueColor">Jobs</li>
-        <li className="meunlist text-[#6f6f6f] hover:text-blueColor">Jobs</li>
+        <li className="meunlist text-[#6f6f6f] hover:text-blueColor">
+          Companies
+        </li>
+        <li className="meunlist text-[#6f6f6f] hover:text-blueColor">About</li>
+        <li className="meunlist text-[#6f6f6f] hover:text-blueColor">
+          Contact
+        </li>
+        <li className="meunlist text-[#6f6f6f] hover:text-blueColor">Blog</li>
+        <li className="meunlist text-[#6f6f6f] hover:text-blueColor">Login</li>
+        <li className="meunlist text-[#6f6f6f] hover:text-blueColor">
+          Register
+        </li>
       </div>
     </div>
   );
